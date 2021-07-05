@@ -1,0 +1,56 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1{
+	color:red;
+	background-color:blue;
+	width:20%;
+	overflow-y: scroll;
+	z-index:1;
+	position: absolute;
+	
+}
+
+.div1{
+	text-align:center;
+	font-size:30px;
+	letter-spacing:1px;
+	
+}
+
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0;
+}
+
+.nav-title {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+}
+
+#map {
+    margin: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+.listli {
+    padding: 10px;
+
+}
+
+.listli:hover {
+    cursor: pointer;
+    background-color:gray;
+}
+@media screen and (max-width: 600px) {
+	.container1{
+		width:35%;
+	}
+}
